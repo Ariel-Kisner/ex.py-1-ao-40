@@ -1,0 +1,7 @@
+usuario = input("usuário: ")
+senha = input("Sistema: ")
+
+if usuario == "admin" and senha == "123":
+    print("Login realizado.")
+else:
+    print("Usuário ou senha incorretos.")
